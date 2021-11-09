@@ -1,62 +1,14 @@
-/* Стили бекграунда для регистрации/логинизации */
 .registerWrapper {
-  display: block;
-  justify-content: center;
-  width: 100%;
-
-  //   min-height: calc(100vh - 60px);
-  //   background: url(../../assets/images/kapusta_logo_reg.png),
-  //     url(../../assets/images/auth_bg320.png),
-  //     url(../../assets/images/authForm_bg320.png),
-  //     url(../../assets/images/rectangle_320.png);
-  //   background-repeat: no-repeat;
-  //   background-position: 49px 86px, 265px 104px, 35px 840px, 0px 0px;
-
-  //   @include tablet {
-  //     min-height: 1185px;
-  //     background: url(../../assets/images/kapusta_logo_reg_768.png),
-  //       url(../../assets/images/kapusta_768.png),
-  //       url(../../assets/images/rectangle768.png),
-  //       url(../../assets/images/kapusta_jump.png);
-  //     background-position: 171px 90px, 0px 30px, 0px 0px, 100px 700px;
-  //     background-repeat: no-repeat;
-  //   }
-
-  //   @include desktop {
-  //     min-height: 1135px;
-  //     background: url(../../assets/images/kapusta_logo_reg_1280.png),
-  //       url(../../assets/images/kapusta_1280.png),
-  //       url(../../assets/images/rectangle1280.png),
-  //       url(../../assets/images/kapusta_jump.png);
-  //     background-position: 230px 360px, 0px 30px, 0px 0px, 230px 900px;
-  //     background-repeat: no-repeat;
-  //   }
-  // }
-
-  // /* Стили бекграунда для залогиненого пользователя */
-  // .mainWrapper {
-  //   display: block;
-  //   justify-content: center;
-  //   top: 0;
-  //   width: 100%;
-  //   min-height: 514px;
-  //   background: url(../../assets/images/rectangle_320.png);
-  //   background-repeat: no-repeat;
-  //   background-position: 0px -80px;
-
-  //   @include tablet {
-  //     margin: 0 auto;
-  //     min-height: 1185px;
-  //     background: url(../../assets/images/rectangle768.png),
-  //       url(../../assets/images/kapusta_jump.png);
-  //     background-position: 0px -3px, 460px 930px;
-  //     background-repeat: no-repeat;
-  //   }
-
-  //   @include desktop {
-  //     max-width: 1280px;
-  //     min-height: 1135px;
-  //     background: url(../../assets/background_img.png) no-repeat;
-  //     background-size: cover;
-  //   }
+  background-image: url(../../assets/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
 }

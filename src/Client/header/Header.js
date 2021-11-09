@@ -13,20 +13,22 @@ const Header = () => {
   const isAuth = useSelector(getIsAuth);
 
   return (
-    <header className={styles.header}>
-      <div className={styles.headerContainer}>
-        <Link to='/' alt='authpage' className={styles.logoLink}>
-          <img src={LogoImg} className={styles.logoImg} alt='Hero-logo' />
-        </Link>
+    <div>
+      {isAuth && (
+        <header className={styles.header}>
+          <div className={styles.headerContainer}>
+            <Link to='/' alt='authpage' className={styles.logoLink}>
+              <img src={LogoImg} className={styles.logoImg} alt='Hero-logo' />
+            </Link>
 
-        {isAuth && (
-          <div className={styles.userInfo}>
-            <UserInfo />
-            <UserLogout />
+            <div className={styles.userInfo}>
+              <UserInfo />
+              <UserLogout />
+            </div>
           </div>
-        )}
-      </div>
-    </header>
+        </header>
+      )}
+    </div>
   );
 };
 
