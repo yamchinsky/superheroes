@@ -1,0 +1,37 @@
+.logoutBtn {
+  background: transparent;
+  border: none;
+}
+
+.logoutSvg {
+  fill: #b5b5b6;
+  width: 16px;
+  height: 16px;
+
+  // @include flex(space-between, center);
+
+  // @include tablet() {
+  //   display: none;
+  // }
+}
+
+.logoutSvg:hover {
+  cursor: pointer;
+}
+
+.logoutText {
+  display: none;
+
+  // @include tablet() {
+  //   @include flex(space-between, center);
+  //   font-size: 12px;
+  //   color: $primary-text-color;
+  // }
+}
+
+// .logoutText:hover {
+//   // @include tablet() {
+//   //   text-decoration: underline;
+//   //   cursor: pointer;
+//   // }
+// }
