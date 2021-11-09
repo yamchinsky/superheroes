@@ -1,0 +1,27 @@
+.header {
+  height: 100px;
+  padding: 0 20px;
+  background-image: url(../../assets/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.header-container {
+  display: flex;
+}
+
+.logoLink,
+.logoImg {
+  margin: 0;
+  height: 33px;
+  align-self: center;
+  cursor: pointer;
+  border-radius: 30px;
+  border: turquoise solid 1px;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+}

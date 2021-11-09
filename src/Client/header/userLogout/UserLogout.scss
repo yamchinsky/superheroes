@@ -1,0 +1,23 @@
+.logoutBtn {
+  position: fixed;
+  right: 20px;
+  top: 7px;
+  background: transparent;
+  border: none;
+}
+
+.logoutSvg {
+  fill: turquoise;
+  width: 16px;
+  height: 16px;
+}
+
+.logoutSvg:hover {
+  cursor: pointer;
+}
+
+.logoutText {
+  display: none;
+  font-size: 12px;
+  color: black;
+}

@@ -1,0 +1,30 @@
+.userInfo {
+  width: 250px;
+  justify-content: flex-end;
+}
+
+.userPic {
+  background-color: #f5f6fa;
+  border-radius: 30px;
+  height: 32px;
+  width: 32px;
+  align-self: center;
+  border: turquoise solid 1px;
+  margin-right: 10px;
+}
+
+.userPicLetter {
+  display: none;
+  //   font-size: 12px;
+  //   color: white;
+  //   font-weight: bold;
+  //   margin-right: 20px;
+}
+
+.userNameFull {
+  // display: none;
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+  margin-right: 20px;
+}
