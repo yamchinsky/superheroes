@@ -3,7 +3,7 @@
 Тех.задание JS Ninjas
 
 Рабочая ссылка проекта:
-https://
+https://yamchinsky.github.io/superheroes-front/
 
 Перед началом работы
 Один раз на проект установить все зависимости. npm i
