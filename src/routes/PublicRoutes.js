@@ -6,9 +6,7 @@ import { getIsAuth } from '../redux/auth/auth.selectors';
 const PublicRoute = ({
   component: Component,
   redirectTo,
-  redirectToMob,
-  isAuthenticated,
-  isMobileMedia,
+
   ...routeProps
 }) => {
   const isAuth = useSelector(getIsAuth);
@@ -16,11 +14,7 @@ const PublicRoute = ({
     <Route
       {...routeProps}
       render={props =>
-        isAuth ? (
-          <Redirect to={isMobileMedia ? '/main' : '/home'} />
-        ) : (
-          <Component {...props} />
-        )
+        isAuth ? <Redirect to='/home' /> : <Component {...props} />
       }
     />
   );

@@ -1,14 +1,29 @@
+.Header-main-container {
+  max-width: 2000px;
+}
+
 .header {
+  display: block;
+  min-width: 1460px;
+  max-width: 2000px;
   height: 100px;
   padding: 0 20px;
   background-image: url(../../assets/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: black;
+  text-align: center;
 }
 
 .header-container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  gap: 50px;
 }
 
 .logoLink,

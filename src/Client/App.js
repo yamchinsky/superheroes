@@ -9,7 +9,6 @@ import Header from './header/Header';
 import Main from './main/Main';
 
 import '../stylesheet/main.scss';
-import HomePage from '../pages/homePage/HomePage';
 
 const App = () => {
   const dispatch = useDispatch();
@@ -23,7 +22,7 @@ const App = () => {
       <div className='mainContainer'>
         <Header />
         <Main />
-        <HomePage />
+
         <ToastContainer
           transition={Zoom}
           closeOnClick
