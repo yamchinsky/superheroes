@@ -2,7 +2,10 @@
   "name": "superheroes-front",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yamchinsky.github.io/superheroes-front",
+  "bugs": {
+    "url": "https://github.com/yamchinsky/superheroes-front/issues"
+  },
+  "homepage": "https://github.com/yamchinsky/github.io/superheroes-front",
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.0",
     "axios": "^0.21.1",
