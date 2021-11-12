@@ -32,7 +32,7 @@ export const mainRoutes = [
     path: '',
     component: lazy(() => import('../pages/notFound/NotFound')),
     exact: true,
-    redirectTo: '/',
+    redirectTo: 'null',
     isPrivate: false
   }
 ];
