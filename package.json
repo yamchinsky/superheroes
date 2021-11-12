@@ -2,6 +2,7 @@
   "name": "superheroes-front",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yamchinsky.github.io/superheroes-front",
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.0",
     "axios": "^0.21.1",
@@ -30,9 +31,14 @@
     "sass": "^1.42.0",
     "yup": "^0.32.9"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamchinsky.github.io/superheroes-front.git"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "npm run build&&gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -53,5 +59,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
